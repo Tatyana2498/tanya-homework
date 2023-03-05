@@ -1,0 +1,52 @@
+.menu {
+    text-decoration: none;
+    color: purple;
+    padding: 4px;
+    font-weight: bolder;
+
+    }
+
+    nav .menu:hover {
+    text-decoration: underline;
+}
+
+#title {
+    justify-self: stretch;
+    
+}
+
+.heder,
+.footer {
+    display: grid;
+}
+
+#img {
+    width: 500px;
+}
+
+.cell {
+    display: grid;
+   grid-template-rows: 10px 20px 10px;
+   grid-template-columns: 600px 700px 350px;
+}
+
+.choice {
+    display: grid;
+    justify-content: center;
+    color: rgb(95, 10, 10);
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 30px;
+    justify-content: space-around;
+}
+
+.event {
+    gap: 1rem; 
+}
+
+#h2 {
+    align-items: center;
+}
